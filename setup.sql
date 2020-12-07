@@ -1,0 +1,34 @@
+CREATE TABLE movies (
+    id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    title TEXT NOT NULL,
+    description TEXT,
+    url TEXT NOT NULL
+);
+
+CREATE TABLE tv shows (
+    id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    title TEXT NOT NULL,
+    description TEXT,
+    url TEXT NOT NULL
+);
+
+CREATE TABLE bands (
+    id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    name TEXT NOT NULL,
+    genre TEXT,
+    url TEXT NOT NULL
+);
+
+CREATE TABLE video games (
+    id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    title TEXT NOT NULL,
+    description TEXT,
+    url TEXT NOT NULL
+);
+
+CREATE TABLE books (
+    id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    title TEXT NOT NULL,
+    description TEXT,
+    url TEXT NOT NULL
+);
