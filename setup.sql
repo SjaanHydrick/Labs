@@ -5,7 +5,7 @@ CREATE TABLE movies (
     url TEXT NOT NULL
 );
 
-CREATE TABLE tv shows (
+CREATE TABLE tvshows (
     id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     title TEXT NOT NULL,
     description TEXT,
@@ -19,7 +19,7 @@ CREATE TABLE bands (
     url TEXT NOT NULL
 );
 
-CREATE TABLE video games (
+CREATE TABLE videogames (
     id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     title TEXT NOT NULL,
     description TEXT,
